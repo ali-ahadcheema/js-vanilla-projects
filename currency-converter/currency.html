@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="currency.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <h2>Currency Converter</h2>
+            <div id="p">
+                <p>Enter amount</p>
+            </div>
+            <input type="number" id="amount" placeholder="100">
+
+            <div class="main">
+                <div class="from">
+                    <p>FROM</p>
+                    <div class="drop">
+                        <img src="https://flagsapi.com/US/flat/64.png" class="img">
+                        <select id="from-select"></select>
+                    </div>
+                </div>
+
+                <div id="logo">
+                    <img src="images/exchange.png" height="15px" width="15px">
+                </div>
+
+                <div class="to">
+                    <p>TO</p>
+                    <div class="drop">
+                        <img src="https://flagsapi.com/US /flat/64.png" class="img">
+                        <select id="to-select"></select>
+                    </div>
+                </div>
+            </div>
+
+            <div id="message">1 Dollar = 243 PKR</div>
+            <input type="submit" id="btn" value="Convert">
+        </form>
+    </div>
+
+    <script src="code.js"></script>
+    <script src="currency.js"></script>
+</body>
+</html>

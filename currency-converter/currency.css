@@ -1,0 +1,114 @@
+body{
+    background-color:#f4e4ba;
+    padding:20px;
+    justify-content: center;
+    margin-left: 290px;
+    margin-top: 50px;
+ 
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+   
+    
+}
+.img{
+    height: 25px;
+    width: 39px;
+    margin-top: 5px;
+    margin-left: 5px;
+    justify-items: center;
+}
+form{
+    background-color: white;
+     padding: 10px; 
+    width: 150px;
+    border-radius: 30px;
+    height:400px;
+    justify-content: center;
+}
+
+form,input,select,button{
+    margin: 10px;
+    gap: 5px;
+    border: none;
+    outline: none;
+    width: 50%;
+    outline-style: none;
+
+}
+form input{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 30px;
+    font-size: 20px;
+    width: 300px;
+
+}
+form p{
+    font-size: 18px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#from{
+    margin-left: 20px;
+    margin-bottom: 8px;
+}
+#to{
+margin-right: 5px;
+margin-bottom: 8px;
+}
+#btn{
+ background-color:lightblue;
+ cursor: pointer;
+ margin-top: 30px;
+ color: white;
+}
+#logo{
+    margin-right: 22px;
+    margin-top: 35px;
+    margin-left: 10px;
+}
+.drop{
+    border: 1px solid black;
+    border-radius: 4px;
+    display: flex;
+    width: 90px;
+    height: 35px;
+    font-size: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+
+.message{
+    margin-top: 11px;
+}
+.main img{
+    max-width: 1.75rem;
+
+}
+select{
+    display: block;
+    width: 100%;
+    max-height: 80px;
+}
+
+select option{
+    cursor: pointer;
+    background-color: lightslategrey ;
+    border: 1px solid lightslategrey ;
+    color: white;
+    border-radius: 2px;
+    text-align: center;
+    text-size-adjust: 20px;
+    max-height: 80px;
+    
+}
+
